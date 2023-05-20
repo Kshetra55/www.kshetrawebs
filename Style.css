@@ -1,0 +1,43 @@
+body{
+    background-image: url(3.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+
+}
+h1{
+    padding: 10px;
+    font-family: Nunito;
+    text-align: center;
+}
+div ul{
+    margin: 0px;
+    padding: 0px;
+}
+div ul li{
+    list-style: none;
+    float: left;
+    background-color: black;
+    opacity: .70;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 2px;
+    width: 100px;
+}
+div ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul li ul li{
+    display: none;
+}
+ul li a:hover ul li a{
+    display: block;
+}
